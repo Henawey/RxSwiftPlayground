@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let test = HotAndColdObservable()
+//Scan().main();
+test.main();
 
+RunLoop.main.run()
